@@ -1,6 +1,8 @@
 import pytest
 from app.calculations import add,subtract,multiply,divide,BankAccount,InsufficientFunds
 
+#to stop testing after 1st failure enter -x flag
+
 @pytest.fixture
 def zero_bank_account():
     return BankAccount()
